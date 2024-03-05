@@ -1,0 +1,900 @@
+2024-03-04 14:53:51 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2F> (referer: None) ['cached']
+2024-03-04 14:54:06 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket> (referer: https://www.jumia.co.ke/)
+2024-03-04 14:54:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=2#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket)
+2024-03-04 14:54:11 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-5.75in-h-light-shell-bu-ket-mounting-bra-ket-headlights-br-147769572.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket)
+2024-03-04 14:54:12 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-5.75in-h-light-shell-bu-ket-mounting-bra-ket-headlights-br-147769572.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/27/5967741/1.jpg?2293',
+ 'product_name': '5.75in H Light   Shell Bu Ket Mounting Bra Ket Headlights Br',
+ 'product_price': 'KSh 9,207',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-5.75in-h-light-shell-bu-ket-mounting-bra-ket-headlights-br-147769572.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1'}
+2024-03-04 14:54:17 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D50%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket)
+2024-03-04 14:54:17 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=50)
+2024-03-04 14:54:17 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=49#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=50)
+2024-03-04 14:54:33 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D3%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket)
+2024-03-04 14:54:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=3)
+2024-03-04 14:54:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=2#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=3)
+2024-03-04 14:54:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=2#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=3)
+2024-03-04 14:54:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=4#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=3)
+2024-03-04 14:54:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=3)
+2024-03-04 14:54:45 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D2%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket)
+2024-03-04 14:54:45 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=2)
+2024-03-04 14:54:45 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=2)
+2024-03-04 14:54:45 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=2)
+2024-03-04 14:54:45 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=2)
+2024-03-04 14:54:45 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=2)
+2024-03-04 14:54:47 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-portable-foldable-electric-kettle-silicon-178401844.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=50)
+2024-03-04 14:54:47 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-portable-foldable-electric-kettle-silicon-178401844.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/44/8104871/1.jpg?0210',
+ 'product_name': 'Portable Foldable Electric Kettle Silicon',
+ 'product_price': 'KSh 1,669',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-portable-foldable-electric-kettle-silicon-178401844.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:54:55 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D48%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=50)
+2024-03-04 14:54:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=48)
+2024-03-04 14:54:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=47#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=48)
+2024-03-04 14:54:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=49#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=48)
+2024-03-04 14:54:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=49#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=48)
+2024-03-04 14:54:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=48)
+2024-03-04 14:55:04 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D49%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=50)
+2024-03-04 14:55:04 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=49)
+2024-03-04 14:55:04 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=49)
+2024-03-04 14:55:04 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=49)
+2024-03-04 14:55:04 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=49)
+2024-03-04 14:55:04 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=49)
+2024-03-04 14:55:17 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2F4you-quality-1500w-2.0l-electric-kettle-water-heater-boiler-jug-175215132.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=3)
+2024-03-04 14:55:17 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/4you-quality-1500w-2.0l-electric-kettle-water-heater-boiler-jug-175215132.html>
+{'availability': 'In stock',
+ 'product_brand': '4you',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/1512571/1.jpg?0268',
+ 'product_name': '4you  QUALITY 1500W 2.0L Electric Kettle Water Heater Boiler '
+                 'Jug',
+ 'product_price': 'KSh 928',
+ 'product_rating': '4 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/4you-quality-1500w-2.0l-electric-kettle-water-heater-boiler-jug-175215132.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:55:25 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D4%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=3)
+2024-03-04 14:55:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=4)
+2024-03-04 14:55:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=4)
+2024-03-04 14:55:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=4)
+2024-03-04 14:55:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=5#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=4)
+2024-03-04 14:55:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=4)
+2024-03-04 14:55:26 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-rotatable-insert-holder-self-adhesive-so-ket-no-drilling-ab-138867601.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=2)
+2024-03-04 14:55:28 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-rotatable-insert-holder-self-adhesive-so-ket-no-drilling-ab-138867601.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/10/6768831/1.jpg?9412',
+ 'product_name': 'Rotatable Insert Holder Self Adhesive So Ket No Drilling  Ab',
+ 'product_price': 'KSh 1,092',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-rotatable-insert-holder-self-adhesive-so-ket-no-drilling-ab-138867601.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1'}
+2024-03-04 14:55:34 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-10-round-silicone-heater-120v-vacuum-chamber-pad-with-digital-controller-136427924.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=48)
+2024-03-04 14:55:34 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-10-round-silicone-heater-120v-vacuum-chamber-pad-with-digital-controller-136427924.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/42/9724631/1.jpg?8265',
+ 'product_name': "10'' Round Silicone Heater 120V Vacuum Chamber Pad With "
+                 'Digital Controller',
+ 'product_price': 'KSh 18,670',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-10-round-silicone-heater-120v-vacuum-chamber-pad-with-digital-controller-136427924.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1'}
+2024-03-04 14:55:42 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D47%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=48)
+2024-03-04 14:55:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=47)
+2024-03-04 14:55:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=46#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=47)
+2024-03-04 14:55:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=47)
+2024-03-04 14:55:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=47)
+2024-03-04 14:55:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=47)
+2024-03-04 14:55:47 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-electric-kettle-portable-folding-silicone-electric-kettle-eu-plug-220v-169051647.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=49)
+2024-03-04 14:55:47 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-electric-kettle-portable-folding-silicone-electric-kettle-eu-plug-220v-169051647.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/6150961/1.jpg?5182',
+ 'product_name': 'Electric Kettle Portable Folding Silicone Electric Kettle EU '
+                 'Plug 220V',
+ 'product_price': 'KSh 3,899',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-electric-kettle-portable-folding-silicone-electric-kettle-eu-plug-220v-169051647.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:55:55 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D5%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=4)
+2024-03-04 14:55:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=5)
+2024-03-04 14:55:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=4#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=5)
+2024-03-04 14:55:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=4#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=5)
+2024-03-04 14:55:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=6#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=5)
+2024-03-04 14:55:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=5)
+2024-03-04 14:55:56 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Froch-rek-7838-d-2l-electric-kettle-2000w-blue-161894311.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=4)
+2024-03-04 14:55:57 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/roch-rek-7838-d-2l-electric-kettle-2000w-blue-161894311.html>
+{'availability': 'In stock',
+ 'product_brand': 'Roch',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/11/3498161/1.jpg?0443',
+ 'product_name': 'Roch REK-7838-D 2L Electric Kettle - 2000W - Blue',
+ 'product_price': 'KSh 1,234',
+ 'product_rating': '5 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/roch-rek-7838-d-2l-electric-kettle-2000w-blue-161894311.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '6 months'}
+2024-03-04 14:56:02 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-portable-folding-silicone-electric-kettle-144581583.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=47)
+2024-03-04 14:56:02 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-portable-folding-silicone-electric-kettle-144581583.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/38/5185441/1.jpg?5260',
+ 'product_name': 'Portable Folding Silicone Electric Kettle',
+ 'product_price': 'KSh 3,899',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-portable-folding-silicone-electric-kettle-144581583.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:56:13 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D46%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=47)
+2024-03-04 14:56:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=46)
+2024-03-04 14:56:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=45#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=46)
+2024-03-04 14:56:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=47#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=46)
+2024-03-04 14:56:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=47#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=46)
+2024-03-04 14:56:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=46)
+2024-03-04 14:56:17 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Failyons-electric-stainless-steel-automatic-kettle-dry-iron-box-187878824.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=5)
+2024-03-04 14:56:17 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/ailyons-electric-stainless-steel-automatic-kettle-dry-iron-box-187878824.html>
+{'availability': 'In stock',
+ 'product_brand': 'AILYONS',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/42/8878781/1.jpg?0769',
+ 'product_name': 'AILYONS Electric Stainless Steel Automatic Kettle+ Dry Iron '
+                 'Box',
+ 'product_price': 'KSh 1,775',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/ailyons-electric-stainless-steel-automatic-kettle-dry-iron-box-187878824.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:56:27 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D6%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=5)
+2024-03-04 14:56:27 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=6)
+2024-03-04 14:56:27 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=5#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=6)
+2024-03-04 14:56:27 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=5#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=6)
+2024-03-04 14:56:27 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=7#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=6)
+2024-03-04 14:56:27 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=6)
+2024-03-04 14:56:31 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2F360-cordless-electric-kettle-2-litres-sayona-mpg437577.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=46)
+2024-03-04 14:56:31 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/360-cordless-electric-kettle-2-litres-sayona-mpg437577.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Sayona',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/89/030207/1.jpg?9038',
+ 'product_name': 'Sayona 360° Cordless Electric Kettle-2 LITRES',
+ 'product_price': 'KSh 3,699',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/360-cordless-electric-kettle-2-litres-sayona-mpg437577.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:56:38 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D45%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=46)
+2024-03-04 14:56:38 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=45)
+2024-03-04 14:56:38 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=44#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=45)
+2024-03-04 14:56:38 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=46#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=45)
+2024-03-04 14:56:38 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=46#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=45)
+2024-03-04 14:56:38 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=45)
+2024-03-04 14:56:46 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2F4you-automatic-2l-water-heater-electric-kettle-plus-free-iron-box-132160578.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=6)
+2024-03-04 14:56:46 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/4you-automatic-2l-water-heater-electric-kettle-plus-free-iron-box-132160578.html>
+{'availability': 'In stock',
+ 'product_brand': '4you',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/5061231/1.jpg?8520',
+ 'product_name': '4you Automatic 2l Water Heater Electric Kettle Plus Free '
+                 'Iron Box',
+ 'product_price': 'KSh 1,950',
+ 'product_rating': '4 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/4you-automatic-2l-water-heater-electric-kettle-plus-free-iron-box-132160578.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:56:53 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D7%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=6)
+2024-03-04 14:56:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=7)
+2024-03-04 14:56:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=6#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=7)
+2024-03-04 14:56:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=6#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=7)
+2024-03-04 14:56:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=8#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=7)
+2024-03-04 14:56:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=7)
+2024-03-04 14:57:05 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-stainless-steel-electric-kettle-double-fast-electric-kettle-blue-144511678.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=45)
+2024-03-04 14:57:05 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-stainless-steel-electric-kettle-double-fast-electric-kettle-blue-144511678.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/6115441/1.jpg?2743',
+ 'product_name': 'Stainless Steel Electric Kettle Double Fast Electric Kettle '
+                 'Blue',
+ 'product_price': 'KSh 7,972',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-stainless-steel-electric-kettle-double-fast-electric-kettle-blue-144511678.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1'}
+2024-03-04 14:57:09 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D44%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=45)
+2024-03-04 14:57:09 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=44)
+2024-03-04 14:57:09 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=43#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=44)
+2024-03-04 14:57:09 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=45#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=44)
+2024-03-04 14:57:09 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=45#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=44)
+2024-03-04 14:57:09 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=44)
+2024-03-04 14:57:17 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2F1500-watts-2.0l-stainless-steel-cordless-kettle-ww-20l-4you-mpg764129.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=7)
+2024-03-04 14:57:17 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/1500-watts-2.0l-stainless-steel-cordless-kettle-ww-20l-4you-mpg764129.html>
+{'availability': 'In stock',
+ 'product_brand': '4you',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/492279/1.jpg?7657',
+ 'product_name': '4you 1500 Watts 2.0L Stainless Steel Cordless Kettle WW-20L',
+ 'product_price': 'KSh 999',
+ 'product_rating': '3 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/1500-watts-2.0l-stainless-steel-cordless-kettle-ww-20l-4you-mpg764129.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:57:25 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D8%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=7)
+2024-03-04 14:57:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=8)
+2024-03-04 14:57:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=7#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=8)
+2024-03-04 14:57:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=7#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=8)
+2024-03-04 14:57:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=9#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=8)
+2024-03-04 14:57:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=8)
+2024-03-04 14:57:33 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-1l-thermal-coffee-carafe-double-walled-thermal-carafe-150309384.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=44)
+2024-03-04 14:57:34 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-1l-thermal-coffee-carafe-double-walled-thermal-carafe-150309384.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/48/3903051/1.jpg?9818',
+ 'product_name': '1L Thermal Coffee Carafe Double Walled Thermal Carafe',
+ 'product_price': 'KSh 5,379',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-1l-thermal-coffee-carafe-double-walled-thermal-carafe-150309384.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1'}
+2024-03-04 14:57:43 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D43%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=44)
+2024-03-04 14:57:43 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=43)
+2024-03-04 14:57:43 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=42#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=43)
+2024-03-04 14:57:43 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=44#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=43)
+2024-03-04 14:57:43 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=44#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=43)
+2024-03-04 14:57:43 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=43)
+2024-03-04 14:57:53 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fwater-heating-electric-kettle-sathiya-mpg766254.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=8)
+2024-03-04 14:57:53 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/water-heating-electric-kettle-sathiya-mpg766254.html>
+{'availability': 'In stock',
+ 'product_brand': 'Sathiya',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/42/656634/1.jpg?2255',
+ 'product_name': 'Sathiya Electric Water Heating Kettle',
+ 'product_price': 'KSh 1,899',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/water-heating-electric-kettle-sathiya-mpg766254.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:57:54 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D9%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=8)
+2024-03-04 14:57:54 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=9)
+2024-03-04 14:57:54 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=8#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=9)
+2024-03-04 14:57:54 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=8#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=9)
+2024-03-04 14:57:54 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=10#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=9)
+2024-03-04 14:57:54 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=9)
+2024-03-04 14:58:00 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2F2.8l-filter-water-f-jug-kettle-activated-carbon-filtration-a-generic-mpg1125976.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=43)
+2024-03-04 14:58:01 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/2.8l-filter-water-f-jug-kettle-activated-carbon-filtration-a-generic-mpg1125976.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/02/3008331/1.jpg?2748',
+ 'product_name': '2.8L Filter Water Jug Kettle Activated Carbon Filtration '
+                 'Automatic Water Outlet',
+ 'product_price': 'KSh 10,090',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/2.8l-filter-water-f-jug-kettle-activated-carbon-filtration-a-generic-mpg1125976.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1'}
+2024-03-04 14:58:07 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D42%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=43)
+2024-03-04 14:58:07 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=42)
+2024-03-04 14:58:07 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=41#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=42)
+2024-03-04 14:58:07 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=43#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=42)
+2024-03-04 14:58:07 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=43#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=42)
+2024-03-04 14:58:07 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=42)
+2024-03-04 14:58:19 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Failyons-automatic-electric-kettle-plus-free-iron-box-112895035.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=9)
+2024-03-04 14:58:19 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/ailyons-automatic-electric-kettle-plus-free-iron-box-112895035.html>
+{'availability': 'In stock',
+ 'product_brand': 'AILYONS',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/53/0598211/1.jpg?5812',
+ 'product_name': 'AILYONS Automatic Electric Kettle Plus Free Iron Box',
+ 'product_price': 'KSh 1,945',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/ailyons-automatic-electric-kettle-plus-free-iron-box-112895035.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:58:19 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D10%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=9)
+2024-03-04 14:58:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=10)
+2024-03-04 14:58:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=9#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=10)
+2024-03-04 14:58:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=9#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=10)
+2024-03-04 14:58:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=11#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=10)
+2024-03-04 14:58:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=10)
+2024-03-04 14:58:25 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-gold-aluminum-kettle-household-kettle-gas-stove-kettle-138296897.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=42)
+2024-03-04 14:58:25 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-gold-aluminum-kettle-household-kettle-gas-stove-kettle-138296897.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/79/8692831/1.jpg?2393',
+ 'product_name': 'Gold Aluminum Kettle Household Kettle Gas Stove Kettle',
+ 'product_price': 'KSh 6,299',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-gold-aluminum-kettle-household-kettle-gas-stove-kettle-138296897.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:58:33 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D41%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=42)
+2024-03-04 14:58:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=41)
+2024-03-04 14:58:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=40#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=41)
+2024-03-04 14:58:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=42#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=41)
+2024-03-04 14:58:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=42#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=41)
+2024-03-04 14:58:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=41)
+2024-03-04 14:58:45 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Failyons-1.7-liters-electric-water-kettle-luxury-purple-98584053.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=10)
+2024-03-04 14:58:45 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/ailyons-1.7-liters-electric-water-kettle-luxury-purple-98584053.html>
+{'availability': 'In stock',
+ 'product_brand': 'AILYONS',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/048589/1.jpg?7801',
+ 'product_name': 'AILYONS 1.7 LITERS ELECTRIC WATER KETTLE LUXURY PURPLE',
+ 'product_price': 'KSh 1,395',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/ailyons-1.7-liters-electric-water-kettle-luxury-purple-98584053.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '6 months'}
+2024-03-04 14:58:51 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D11%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=10)
+2024-03-04 14:58:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=11)
+2024-03-04 14:58:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=10#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=11)
+2024-03-04 14:58:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=10#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=11)
+2024-03-04 14:58:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=12#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=11)
+2024-03-04 14:58:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=11)
+2024-03-04 14:58:56 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-thermos-bottle-travel-electric-kettle-smart-thermos-cup-138310118.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=41)
+2024-03-04 14:58:56 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-thermos-bottle-travel-electric-kettle-smart-thermos-cup-138310118.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/81/1013831/1.jpg?9079',
+ 'product_name': 'Thermos Bottle Travel Electric Kettle Smart Thermos Cup',
+ 'product_price': 'KSh 12,499',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-thermos-bottle-travel-electric-kettle-smart-thermos-cup-138310118.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:59:01 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D40%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=41)
+2024-03-04 14:59:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=40)
+2024-03-04 14:59:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=39#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=40)
+2024-03-04 14:59:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=41#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=40)
+2024-03-04 14:59:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=41#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=40)
+2024-03-04 14:59:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=40)
+2024-03-04 14:59:07 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-large-capacity-beverage-storage-container-heat-resistant-cold-water-jug-plastic-juice-pitcher-household-teapot-kettle-129430515.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=11)
+2024-03-04 14:59:07 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-large-capacity-beverage-storage-container-heat-resistant-cold-water-jug-plastic-juice-pitcher-household-teapot-kettle-129430515.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/51/5034921/1.jpg?5165',
+ 'product_name': 'Large Capacity Beverage Storage Container Heat Resistant '
+                 'Cold Water Jug Plastic Juice Pitcher Household Teapot Kettle',
+ 'product_price': 'KSh 7,290',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-large-capacity-beverage-storage-container-heat-resistant-cold-water-jug-plastic-juice-pitcher-household-teapot-kettle-129430515.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:59:20 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D12%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=11)
+2024-03-04 14:59:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=12)
+2024-03-04 14:59:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=11#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=12)
+2024-03-04 14:59:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=11#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=12)
+2024-03-04 14:59:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=13#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=12)
+2024-03-04 14:59:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=12)
+2024-03-04 14:59:23 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D39%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=40)
+2024-03-04 14:59:23 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=39)
+2024-03-04 14:59:23 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=38#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=39)
+2024-03-04 14:59:23 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=40#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=39)
+2024-03-04 14:59:23 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=40#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=39)
+2024-03-04 14:59:23 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=39)
+2024-03-04 14:59:27 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fkettle-health-pot-electric-stew-pot-temperature-adjustment-generic-mpg937315.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=40)
+2024-03-04 14:59:27 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/kettle-health-pot-electric-stew-pot-temperature-adjustment-generic-mpg937315.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/7629831/1.jpg?3777',
+ 'product_name': 'Kettle Health Pot Electric Stew Pot Temperature Adjustment',
+ 'product_price': 'KSh 15,640',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/kettle-health-pot-electric-stew-pot-temperature-adjustment-generic-mpg937315.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:59:30 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fvon-1.7ltrs-corded-kettle-73250209.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=12)
+2024-03-04 14:59:30 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/von-1.7ltrs-corded-kettle-73250209.html>
+{'availability': 'In stock',
+ 'product_brand': 'VON',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/90/205237/1.jpg?9547',
+ 'product_name': 'VON 1.7ltrs Corded Kettle',
+ 'product_price': 'KSh 3,199',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/von-1.7ltrs-corded-kettle-73250209.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1 Year'}
+2024-03-04 14:59:37 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D13%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=12)
+2024-03-04 14:59:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=13)
+2024-03-04 14:59:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=12#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=13)
+2024-03-04 14:59:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=12#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=13)
+2024-03-04 14:59:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=14#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=13)
+2024-03-04 14:59:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=13)
+2024-03-04 14:59:45 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-160-x-230-x-170mm-silicone-kettle-green-pink-green-136974779.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=39)
+2024-03-04 14:59:45 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-160-x-230-x-170mm-silicone-kettle-green-pink-green-136974779.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/97/7479631/1.jpg?3582',
+ 'product_name': '160 X 230 X 170mm Silicone Kettle Green Pink Green',
+ 'product_price': 'KSh 5,063',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-160-x-230-x-170mm-silicone-kettle-green-pink-green-136974779.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1'}
+2024-03-04 14:59:53 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D38%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=39)
+2024-03-04 14:59:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=38)
+2024-03-04 14:59:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=37#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=38)
+2024-03-04 14:59:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=39#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=38)
+2024-03-04 14:59:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=39#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=38)
+2024-03-04 14:59:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=38)
+2024-03-04 14:59:58 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-insulation-coffee-pot-gooseneck-nozzle-teapot-smart-kettle-138926990.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=13)
+2024-03-04 14:59:58 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-insulation-coffee-pot-gooseneck-nozzle-teapot-smart-kettle-138926990.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/9629831/1.jpg?3763',
+ 'product_name': 'Insulation Coffee Pot Gooseneck Nozzle Teapot Smart Kettle',
+ 'product_price': 'KSh 16,580',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-insulation-coffee-pot-gooseneck-nozzle-teapot-smart-kettle-138926990.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:00:11 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D14%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=13)
+2024-03-04 15:00:11 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=14)
+2024-03-04 15:00:11 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=13#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=14)
+2024-03-04 15:00:11 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=13#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=14)
+2024-03-04 15:00:11 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=15#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=14)
+2024-03-04 15:00:11 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=14)
+2024-03-04 15:00:17 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-kettle-health-pot-tea-cooker-flower-electric-stew-pot-teapot-138346728.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=38)
+2024-03-04 15:00:17 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-kettle-health-pot-tea-cooker-flower-electric-stew-pot-teapot-138346728.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/82/7643831/1.jpg?1791',
+ 'product_name': 'Kettle Health Pot Tea Cooker Flower Electric Stew Pot Teapot',
+ 'product_price': 'KSh 16,299',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-kettle-health-pot-tea-cooker-flower-electric-stew-pot-teapot-138346728.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:00:26 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D37%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=38)
+2024-03-04 15:00:26 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=37)
+2024-03-04 15:00:26 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=36#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=37)
+2024-03-04 15:00:26 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=38#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=37)
+2024-03-04 15:00:26 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=38#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=37)
+2024-03-04 15:00:26 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=37)
+2024-03-04 15:00:31 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fenerbras-enershower-4-temperature-instant-shower-water-heater.-5311678.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=14)
+2024-03-04 15:00:31 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/enerbras-enershower-4-temperature-instant-shower-water-heater.-5311678.html>
+{'availability': 'In stock',
+ 'product_brand': 'Enerbras',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/61135/1.jpg?1505',
+ 'product_name': 'Enerbras Enershower 4 Temperature Instant Shower Water '
+                 'Heater.',
+ 'product_price': 'KSh 2,963',
+ 'product_rating': '4.3 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/enerbras-enershower-4-temperature-instant-shower-water-heater.-5311678.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:00:37 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D15%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=14)
+2024-03-04 15:00:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=15)
+2024-03-04 15:00:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=14#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=15)
+2024-03-04 15:00:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=14#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=15)
+2024-03-04 15:00:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=16#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=15)
+2024-03-04 15:00:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=15)
+2024-03-04 15:00:49 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-kettle-thermal-cup-coffee-water-bottle-touch-water-cup-138925321.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=37)
+2024-03-04 15:00:49 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-kettle-thermal-cup-coffee-water-bottle-touch-water-cup-138925321.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/12/3529831/1.jpg?3869',
+ 'product_name': 'Kettle Thermal Cup Coffee Water Bottle Touch Water Cup',
+ 'product_price': 'KSh 10,070',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-kettle-thermal-cup-coffee-water-bottle-touch-water-cup-138925321.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:00:50 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D36%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=37)
+2024-03-04 15:00:50 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=36)
+2024-03-04 15:00:50 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=35#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=36)
+2024-03-04 15:00:50 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=37#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=36)
+2024-03-04 15:00:50 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=37#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=36)
+2024-03-04 15:00:50 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=36)
+2024-03-04 15:00:57 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fhorizon-instant-heater-for-hot-shower-139907645.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=15)
+2024-03-04 15:00:57 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/horizon-instant-heater-for-hot-shower-139907645.html>
+{'availability': 'In stock',
+ 'product_brand': 'Horizon',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/6709931/1.jpg?8832',
+ 'product_name': 'Horizon Instant Heater - For Hot Shower',
+ 'product_price': 'KSh 1,382',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/horizon-instant-heater-for-hot-shower-139907645.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:01:10 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D16%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=15)
+2024-03-04 15:01:10 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=16)
+2024-03-04 15:01:10 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=15#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=16)
+2024-03-04 15:01:10 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=15#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=16)
+2024-03-04 15:01:10 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=17#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=16)
+2024-03-04 15:01:10 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=16)
+2024-03-04 15:01:15 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-electric-kettle-water-boiler-bottle-travel-car-trip-hotel-138926228.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=36)
+2024-03-04 15:01:16 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-electric-kettle-water-boiler-bottle-travel-car-trip-hotel-138926228.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/82/2629831/1.jpg?3810',
+ 'product_name': 'Electric Kettle Water Boiler Bottle Travel Car Trip Hotel',
+ 'product_price': 'KSh 12,370',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-electric-kettle-water-boiler-bottle-travel-car-trip-hotel-138926228.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:01:30 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fretro-electric-temperature-control-18l-capacity-with-watch-smart-electric-kettles-eu-plug-white-915-generation-mpg1244455.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=16)
+2024-03-04 15:01:30 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/retro-electric-temperature-control-18l-capacity-with-watch-smart-electric-kettles-eu-plug-white-915-generation-mpg1244455.html>
+{'availability': 'In stock',
+ 'product_brand': '915 Generation',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/8137351/1.jpg?5616',
+ 'product_name': '915 Generation Retro Electric Temperature Control 18L '
+                 'Capacity with Watch Smart Electric Kettles EU Plug White',
+ 'product_price': 'KSh 11,074',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/retro-electric-temperature-control-18l-capacity-with-watch-smart-electric-kettles-eu-plug-white-915-generation-mpg1244455.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'None'}
+2024-03-04 15:01:30 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D35%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=36)
+2024-03-04 15:01:31 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=35)
+2024-03-04 15:01:31 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=34#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=35)
+2024-03-04 15:01:31 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=36#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=35)
+2024-03-04 15:01:31 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=36#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=35)
+2024-03-04 15:01:31 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=35)
+2024-03-04 15:01:36 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D17%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=16)
+2024-03-04 15:01:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=17)
+2024-03-04 15:01:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=16#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=17)
+2024-03-04 15:01:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=16#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=17)
+2024-03-04 15:01:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=18#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=17)
+2024-03-04 15:01:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=17)
+2024-03-04 15:01:52 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D34%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=35)
+2024-03-04 15:01:52 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=34)
+2024-03-04 15:01:52 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=33#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=34)
+2024-03-04 15:01:52 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=35#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=34)
+2024-03-04 15:01:52 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=35#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=34)
+2024-03-04 15:01:52 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=34)
+2024-03-04 15:01:53 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-thermos-bottle-travel-electric-kettle-smart-thermos-cup-138926288.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=35)
+2024-03-04 15:01:53 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-thermos-bottle-travel-electric-kettle-smart-thermos-cup-138926288.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/88/2629831/1.jpg?3807',
+ 'product_name': 'Thermos Bottle Travel Electric Kettle Smart Thermos Cup',
+ 'product_price': 'KSh 12,400',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-thermos-bottle-travel-electric-kettle-smart-thermos-cup-138926288.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:02:00 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fraf-electric-kettle2000w-boil-dry-protection-auto-shut-off-2-litres-360-degree-cordless-portable-stainless-steel-fast-boil-jug-kettle-for-hot-water-tea-or-coffee-178922060.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=17)
+2024-03-04 15:02:00 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/raf-electric-kettle2000w-boil-dry-protection-auto-shut-off-2-litres-360-degree-cordless-portable-stainless-steel-fast-boil-jug-kettle-for-hot-water-tea-or-coffee-178922060.html>
+{'availability': 'In stock',
+ 'product_brand': 'RAF',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/06/0229871/1.jpg?4593',
+ 'product_name': 'RAF Electric Kettle,2000W Boil Dry Protection & Auto Shut '
+                 'Off 2 Litres 360 Degree Cordless, Portable & Stainless Steel '
+                 'Fast Boil Jug Kettle for Hot Water Tea or Coffee ',
+ 'product_price': 'KSh 2,999',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/raf-electric-kettle2000w-boil-dry-protection-auto-shut-off-2-litres-360-degree-cordless-portable-stainless-steel-fast-boil-jug-kettle-for-hot-water-tea-or-coffee-178922060.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:02:09 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D18%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=17)
+2024-03-04 15:02:09 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=18)
+2024-03-04 15:02:09 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=17#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=18)
+2024-03-04 15:02:09 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=17#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=18)
+2024-03-04 15:02:09 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=19#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=18)
+2024-03-04 15:02:09 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=18)
+2024-03-04 15:02:16 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Failyons-electric-kettle-plastic-cordless-boiling-kettle-188860748.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=34)
+2024-03-04 15:02:16 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/ailyons-electric-kettle-plastic-cordless-boiling-kettle-188860748.html>
+{'availability': '5 units left',
+ 'product_brand': 'AILYONS',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/7068881/1.jpg?3787',
+ 'product_name': 'AILYONS Electric Kettle Plastic Cordless Boiling Kettle',
+ 'product_price': 'KSh 2,199',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/ailyons-electric-kettle-plastic-cordless-boiling-kettle-188860748.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:02:28 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D33%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=34)
+2024-03-04 15:02:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=33)
+2024-03-04 15:02:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=32#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=33)
+2024-03-04 15:02:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=34#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=33)
+2024-03-04 15:02:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=34#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=33)
+2024-03-04 15:02:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=33)
+2024-03-04 15:02:33 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-electric-kettle-water-heating-stove-multifunctional-health-glass-teapot-tea-pot-coffee-cooker-milk-boiler-tea-puer-maker-1l-130509714.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=18)
+2024-03-04 15:02:33 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-electric-kettle-water-heating-stove-multifunctional-health-glass-teapot-tea-pot-coffee-cooker-milk-boiler-tea-puer-maker-1l-130509714.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/7905031/1.jpg?3081',
+ 'product_name': 'Electric Kettle Water Heating Stove Multifunctional Health '
+                 'Glass Teapot Tea Pot Coffee Cooker Milk Boiler Tea Puer '
+                 'Maker 1L',
+ 'product_price': 'KSh 8,424',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-electric-kettle-water-heating-stove-multifunctional-health-glass-teapot-tea-pot-coffee-cooker-milk-boiler-tea-puer-maker-1l-130509714.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:02:39 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D19%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=18)
+2024-03-04 15:02:39 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=19)
+2024-03-04 15:02:39 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=18#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=19)
+2024-03-04 15:02:39 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=18#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=19)
+2024-03-04 15:02:39 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=20#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=19)
+2024-03-04 15:02:39 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=19)
+2024-03-04 15:02:58 [scrapy] DEBUG: Retrying <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-portable-foldable-electric-kettle-silicon-188376365.html> (failed 1 times): User timeout caused connection failure: Getting https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-portable-foldable-electric-kettle-silicon-188376365.html took longer than 15.0 seconds..
+2024-03-04 15:02:58 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D32%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=33)
+2024-03-04 15:02:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=32)
+2024-03-04 15:02:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=31#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=32)
+2024-03-04 15:02:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=33#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=32)
+2024-03-04 15:02:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=33#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=32)
+2024-03-04 15:02:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=32)
+2024-03-04 15:03:01 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-electric-kettle-boiling-water-kettle-thermostat-teapot-138479775.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=19)
+2024-03-04 15:03:01 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-electric-kettle-boiling-water-kettle-thermostat-teapot-138479775.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/7974831/1.jpg?1961',
+ 'product_name': 'Electric Kettle Boiling Water Kettle Thermostat Teapot',
+ 'product_price': 'KSh 31,699',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-electric-kettle-boiling-water-kettle-thermostat-teapot-138479775.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:03:03 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D20%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=19)
+2024-03-04 15:03:04 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=20)
+2024-03-04 15:03:04 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=19#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=20)
+2024-03-04 15:03:04 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=19#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=20)
+2024-03-04 15:03:04 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=21#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=20)
+2024-03-04 15:03:04 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=20)
+2024-03-04 15:03:08 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-portable-foldable-electric-kettle-silicon-188376365.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=33)
+2024-03-04 15:03:08 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-portable-foldable-electric-kettle-silicon-188376365.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/3673881/1.jpg?1109',
+ 'product_name': 'Portable Foldable Electric Kettle Silicon',
+ 'product_price': 'KSh 1,669',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-portable-foldable-electric-kettle-silicon-188376365.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:03:17 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcordless-electric-kettle-scarlett-mpg1245979.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=32)
+2024-03-04 15:03:17 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/cordless-electric-kettle-scarlett-mpg1245979.html>
+{'availability': 'In stock',
+ 'product_brand': 'Scarlett',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/66/380033/1.jpg?0679',
+ 'product_name': 'Scarlett Cordless  Kettle  With  Lable 6-way Extension Cable',
+ 'product_price': 'KSh 1,655',
+ 'product_rating': '1 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/cordless-electric-kettle-scarlett-mpg1245979.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:03:33 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D31%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=32)
+2024-03-04 15:03:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=31)
+2024-03-04 15:03:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=30#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=31)
+2024-03-04 15:03:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=32#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=31)
+2024-03-04 15:03:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=32#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=31)
+2024-03-04 15:03:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=31)
+2024-03-04 15:03:35 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-raf-transparent-2l-glass-smart-water-boiling-electric-kettles.-jug-169315089.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=20)
+2024-03-04 15:03:35 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-raf-transparent-2l-glass-smart-water-boiling-electric-kettles.-jug-169315089.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/98/0513961/1.jpg?4599',
+ 'product_name': 'RAF Transparent 2L Glass Smart Water Boiling Electric '
+                 'Kettles. Jug',
+ 'product_price': 'KSh 3,499',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-raf-transparent-2l-glass-smart-water-boiling-electric-kettles.-jug-169315089.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:03:47 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D21%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=20)
+2024-03-04 15:03:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=21)
+2024-03-04 15:03:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=20#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=21)
+2024-03-04 15:03:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=20#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=21)
+2024-03-04 15:03:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=22#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=21)
+2024-03-04 15:03:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=21)
+2024-03-04 15:03:48 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Frashnik-5.7-litres-2200watts-stainless-steel-electric-water-heating-kettle-auto-shut-158894960.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=31)
+2024-03-04 15:03:48 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/rashnik-5.7-litres-2200watts-stainless-steel-electric-water-heating-kettle-auto-shut-158894960.html>
+{'availability': 'In stock',
+ 'product_brand': 'Rashnik',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/06/9498851/1.jpg?7399',
+ 'product_name': 'Rashnik 5.7 Litres  2200Watts Stainless Steel Electric Water '
+                 'Heating Kettle- Auto Shut',
+ 'product_price': 'KSh 4,399',
+ 'product_rating': '1 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/rashnik-5.7-litres-2200watts-stainless-steel-electric-water-heating-kettle-auto-shut-158894960.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:03:58 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D30%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=31)
+2024-03-04 15:03:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=30)
+2024-03-04 15:03:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=29#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=30)
+2024-03-04 15:03:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=31#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=30)
+2024-03-04 15:03:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=31#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=30)
+2024-03-04 15:03:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=30)
+2024-03-04 15:04:05 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fstainless-steel-corded-traditional-electric-kettle-5ltrs-sterling-mpg1245987.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=21)
+2024-03-04 15:04:05 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/stainless-steel-corded-traditional-electric-kettle-5ltrs-sterling-mpg1245987.html>
+{'availability': '5 units left',
+ 'product_brand': 'Sterling',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/48/240826/1.jpg?0099',
+ 'product_name': 'Sterling Stainless Steel Corded Traditional Electric Kettle '
+                 '5Ltrs',
+ 'product_price': 'KSh 4,995',
+ 'product_rating': '5 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/stainless-steel-corded-traditional-electric-kettle-5ltrs-sterling-mpg1245987.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:04:15 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D22%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=21)
+2024-03-04 15:04:15 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=22)
+2024-03-04 15:04:15 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=21#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=22)
+2024-03-04 15:04:15 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=21#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=22)
+2024-03-04 15:04:15 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=23#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=22)
+2024-03-04 15:04:15 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=22)
+2024-03-04 15:04:15 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fscarlett-electric-kettle-2l-plus-free-heavy-duty-4-way-extension.-scarlett-mpg151720.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=30)
+2024-03-04 15:04:15 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/scarlett-electric-kettle-2l-plus-free-heavy-duty-4-way-extension.-scarlett-mpg151720.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Scarlett',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/67/212791/1.jpg?8373',
+ 'product_name': 'Scarlett Electric Kettle - 2L+ Free Heavy Duty 4 Way '
+                 'Extension.',
+ 'product_price': 'KSh 1,489',
+ 'product_rating': '3.1 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/scarlett-electric-kettle-2l-plus-free-heavy-duty-4-way-extension.-scarlett-mpg151720.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:04:21 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D29%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=30)
+2024-03-04 15:04:21 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=29)
+2024-03-04 15:04:21 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=28#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=29)
+2024-03-04 15:04:21 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=30#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=29)
+2024-03-04 15:04:21 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=30#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=29)
+2024-03-04 15:04:21 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=29)
+2024-03-04 15:04:29 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fthick-stainless-steel-teapot-golden-sier-tea-pot-with-generic-mpg437856.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=22)
+2024-03-04 15:04:29 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/thick-stainless-steel-teapot-golden-sier-tea-pot-with-generic-mpg437856.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/14/376436/1.jpg?6374',
+ 'product_name': 'Thick Stainless Steel Teapot Golden Sier Tea Pot With',
+ 'product_price': 'KSh 5,290',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/thick-stainless-steel-teapot-golden-sier-tea-pot-with-generic-mpg437856.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:04:38 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D23%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=22)
+2024-03-04 15:04:39 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=23)
+2024-03-04 15:04:39 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=22#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=23)
+2024-03-04 15:04:39 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=22#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=23)
+2024-03-04 15:04:39 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=24#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=23)
+2024-03-04 15:04:39 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=23)
+2024-03-04 15:04:47 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fmens-handle-office-thermos-304-stainless-steel-tea-cup-generic-mpg437956.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=29)
+2024-03-04 15:04:47 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/mens-handle-office-thermos-304-stainless-steel-tea-cup-generic-mpg437956.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/45/208436/1.jpg?0452',
+ 'product_name': "Men's Handle Office Thermos 304 Stainless Steel Tea Cup",
+ 'product_price': 'KSh 5,090',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/mens-handle-office-thermos-304-stainless-steel-tea-cup-generic-mpg437956.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:04:57 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D28%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=29)
+2024-03-04 15:04:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=28)
+2024-03-04 15:04:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=27#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=28)
+2024-03-04 15:04:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=29#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=28)
+2024-03-04 15:04:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=29#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=28)
+2024-03-04 15:04:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=28)
+2024-03-04 15:04:58 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-large-capacity-enamel-whistling-kettle-boiling-water-kettle-63480010.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=23)
+2024-03-04 15:04:58 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-large-capacity-enamel-whistling-kettle-boiling-water-kettle-63480010.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/01/008436/1.jpg?0391',
+ 'product_name': 'Large-Capacity Enamel Whistling Kettle Boiling Water Kettle',
+ 'product_price': 'KSh 7,190',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-large-capacity-enamel-whistling-kettle-boiling-water-kettle-63480010.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:05:06 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D24%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=23)
+2024-03-04 15:05:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=24)
+2024-03-04 15:05:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=23#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=24)
+2024-03-04 15:05:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=23#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=24)
+2024-03-04 15:05:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=25#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=24)
+2024-03-04 15:05:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=24)
+2024-03-04 15:05:13 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-kamjove-a-516-variable-frequency-induction-cooker-tea-art-63471896.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=28)
+2024-03-04 15:05:13 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-kamjove-a-516-variable-frequency-induction-cooker-tea-art-63471896.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/69/817436/1.jpg?8114',
+ 'product_name': 'KAMJOVE A-516 Variable Frequency Induction Cooker Tea Art',
+ 'product_price': 'KSh 21,790',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-kamjove-a-516-variable-frequency-induction-cooker-tea-art-63471896.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:05:19 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D27%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=28)
+2024-03-04 15:05:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=27)
+2024-03-04 15:05:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=26#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=27)
+2024-03-04 15:05:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=28#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=27)
+2024-03-04 15:05:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=28#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=27)
+2024-03-04 15:05:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=27)
+2024-03-04 15:05:30 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcordless-electric-kettle-4-way-extension-cable-scarlett-mpg1589275.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=24)
+2024-03-04 15:05:30 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/cordless-electric-kettle-4-way-extension-cable-scarlett-mpg1589275.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Scarlett',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/37/4950961/1.jpg?5245',
+ 'product_name': 'Scarlett  Cordless Electric Kettle + 4-way Extension Cable',
+ 'product_price': 'KSh 1,700',
+ 'product_rating': '3.5 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/cordless-electric-kettle-4-way-extension-cable-scarlett-mpg1589275.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:05:34 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D25%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=24)
+2024-03-04 15:05:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=25)
+2024-03-04 15:05:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=24#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=25)
+2024-03-04 15:05:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=24#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=25)
+2024-03-04 15:05:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=26#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=25)
+2024-03-04 15:05:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=26#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=25)
+2024-03-04 15:05:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=25)
+2024-03-04 15:05:41 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Ftravel-electric-kettle-small-boiling-cup-stainless-steel-generic-mpg439313.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=27)
+2024-03-04 15:05:41 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/travel-electric-kettle-small-boiling-cup-stainless-steel-generic-mpg439313.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/27/317436/1.jpg?8003',
+ 'product_name': 'Travel Electric Kettle Small Boiling Cup Stainless Steel',
+ 'product_price': 'KSh 15,490',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/travel-electric-kettle-small-boiling-cup-stainless-steel-generic-mpg439313.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:05:49 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Delectric%2Bket%26page%3D26%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=27)
+2024-03-04 15:05:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=26)
+2024-03-04 15:05:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=25#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=26)
+2024-03-04 15:05:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=25#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=26)
+2024-03-04 15:05:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=27#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=26)
+2024-03-04 15:05:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=27#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=26)
+2024-03-04 15:05:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=electric+ket&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=26)
+2024-03-04 15:06:03 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-stainless-steel-coffee-pot-boiled-milk-coffee-kettle-79684250.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=25)
+2024-03-04 15:06:03 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-stainless-steel-coffee-pot-boiled-milk-coffee-kettle-79684250.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/05/248697/1.jpg?9482',
+ 'product_name': 'Stainless Steel Coffee Pot Boiled Milk Coffee Kettle',
+ 'product_price': 'KSh 5,840',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-stainless-steel-coffee-pot-boiled-milk-coffee-kettle-79684250.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1'}
+2024-03-04 15:06:09 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-ancient-style-crystal-glteapot-transparent-glteapot-63466922.html> (referer: https://www.jumia.co.ke/catalog/?q=electric+ket&page=26)
+2024-03-04 15:06:09 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-ancient-style-crystal-glteapot-transparent-glteapot-63466922.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/966436/1.jpg?6192',
+ 'product_name': 'Ancient Style Crystal GlTeapot Transparent GlTeapot',
+ 'product_price': 'KSh 4,990',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-ancient-style-crystal-glteapot-transparent-glteapot-63466922.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:06:09 [scrapy] INFO: Closing spider (finished)
+2024-03-04 15:06:09 [scrapy] INFO: Stored json feed (50 items) in: search_data.json
+2024-03-04 15:06:09 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 1,
+ 'downloader/request_bytes': 44703,
+ 'downloader/request_count': 102,
+ 'downloader/request_method_count/GET': 102,
+ 'downloader/response_bytes': 4218039,
+ 'downloader/response_count': 101,
+ 'downloader/response_status_count/200': 101,
+ 'dupefilter/filtered': 245,
+ 'elapsed_time_seconds': 738.044135,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 3, 4, 12, 6, 9, 571559, tzinfo=datetime.timezone.utc),
+ 'httpcache/firsthand': 100,
+ 'httpcache/hit': 1,
+ 'httpcache/miss': 101,
+ 'httpcache/store': 100,
+ 'httpcompression/response_bytes': 18687419,
+ 'httpcompression/response_count': 101,
+ 'item_scraped_count': 50,
+ 'log_count/DEBUG': 1286,
+ 'log_count/INFO': 26,
+ 'request_depth_max': 26,
+ 'response_received_count': 101,
+ 'retry/count': 1,
+ 'retry/reason_count/twisted.internet.error.TimeoutError': 1,
+ 'scheduler/dequeued': 203,
+ 'scheduler/dequeued/memory': 203,
+ 'scheduler/enqueued': 203,
+ 'scheduler/enqueued/memory': 203,
+ 'start_time': datetime.datetime(2024, 3, 4, 11, 53, 51, 527424, tzinfo=datetime.timezone.utc)}
+2024-03-04 15:06:09 [scrapy] INFO: Spider closed (finished)

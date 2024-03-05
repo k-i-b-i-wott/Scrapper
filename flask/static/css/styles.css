@@ -1,0 +1,26 @@
+body{
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: rgb(62, 71, 67);
+}
+.table{
+    text-align: center;
+}
+header{
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(28, 26, 26);
+
+}
+.header{
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    padding-top: 20px;
+}
+.header .jumia-header{
+    color: orangered;
+    font-size: 2em;
+    font-weight: bolder;
+}

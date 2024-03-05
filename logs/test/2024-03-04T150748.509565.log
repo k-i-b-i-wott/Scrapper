@@ -1,0 +1,89 @@
+2024-03-04 15:07:48 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2F> (referer: None) ['cached']
+2024-03-04 15:08:05 [scrapy] ERROR: Spider error processing <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2F> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+          ^^^^^^^^
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\scrapper\spiders\test.py", line 42, in load
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "main.has-b2top")))
+  File "C:\Users\ADMIN\Desktop\jumia_scrapper-master\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF78CC0AD22+56930]
+	(No symbol) [0x00007FF78CB7F622]
+	(No symbol) [0x00007FF78CA342E5]
+	(No symbol) [0x00007FF78CA798ED]
+	(No symbol) [0x00007FF78CA79A2C]
+	(No symbol) [0x00007FF78CABA967]
+	(No symbol) [0x00007FF78CA9BCDF]
+	(No symbol) [0x00007FF78CAB81E2]
+	(No symbol) [0x00007FF78CA9BA43]
+	(No symbol) [0x00007FF78CA6D438]
+	(No symbol) [0x00007FF78CA6E4D1]
+	GetHandleVerifier [0x00007FF78CF86AAD+3709933]
+	GetHandleVerifier [0x00007FF78CFDFFED+4075821]
+	GetHandleVerifier [0x00007FF78CFD817F+4043455]
+	GetHandleVerifier [0x00007FF78CCA9756+706710]
+	(No symbol) [0x00007FF78CB8B8FF]
+	(No symbol) [0x00007FF78CB86AE4]
+	(No symbol) [0x00007FF78CB86C3C]
+	(No symbol) [0x00007FF78CB768F4]
+	BaseThreadInitThunk [0x00007FF806A97344+20]
+	RtlUserThreadStart [0x00007FF8081826B1+33]
+
+2024-03-04 15:08:05 [scrapy] INFO: Closing spider (finished)
+2024-03-04 15:08:05 [scrapy] INFO: Stored json feed (0 items) in: search_data.json
+2024-03-04 15:08:05 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 304,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 76935,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 16.692366,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 3, 4, 12, 8, 5, 272593, tzinfo=datetime.timezone.utc),
+ 'httpcache/hit': 1,
+ 'httpcompression/response_bytes': 406728,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 113,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/TimeoutException': 1,
+ 'start_time': datetime.datetime(2024, 3, 4, 12, 7, 48, 580227, tzinfo=datetime.timezone.utc)}
+2024-03-04 15:08:05 [scrapy] INFO: Spider closed (finished)

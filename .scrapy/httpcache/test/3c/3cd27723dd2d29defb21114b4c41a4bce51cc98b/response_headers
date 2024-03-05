@@ -1,0 +1,13 @@
+Server: nginx
+Date: Mon, 04 Mar 2024 11:55:38 GMT
+Content-Type: text/html; charset=utf-8
+Set-Cookie: sponsoredUserId=733073107260065884465e5b6b9595ee; expires=Tue, 04-Mar-2025 11:55:37 GMT; Max-Age=31536000; path=/; domain=.jumia.co.ke; secure; samesite=LaxregeneratedSponsoredUserId=1; expires=Sat, 04-May-2024 11:55:37 GMT; Max-Age=5270400; path=/; domain=.jumia.co.ke; secure; httponly; samesi;newsletter=1; expires=Sun, 04-Mar-2029 11:55:37 GMT; Max-Age=157766400; path=/; domain=.jumia.co.ke; secure; httponly; same;sb-closed=true; expires=Mon, 11-Mar-2024 11:55:37 GMT; Max-Age=604800; path=/; domain=.jumia.co.ke; secure; httponly; samesit;ABTests=%5B%7B%22name%22%3A%22CLP%22%2C%22scenario%22%3A%22A%22%2C%22updatedAt%22%3A1680685841%7D%2C%7B%22name%22%3A%22Cart%22%2C%22scenario%22%3A%22E%22%2C%22updatedAt%22%3A1621323098%7D%2C%7B%22name%22%3A%22SponProdPdp%22%2C%22scenario%22%3A%22A%22%2C%22updatedAt%22%3A1698939590%7D%5D; expires=Tue, 04-Mar-2025 11:55:37 GMT; Max-Age=31536000; path=/; domain=.jumia.co.ke; secure; httponly; sames;SOLSESSID=da3743529df80b7d33714c58f590517d; expires=Mon, 04-Mar-2024 12:19:37 GMT; Max-Age=1440; path=/; domain=.jumia.co.ke; httponly; samesite=Lax;userLanguage=en_KE; expires=Tue, 04-Mar-2025 11:55:37 GMT; Max-Age=31536000; path=/; domain=.jumia.co.ke; secure; httponly; sames;__cf_bm=IUOqxa5yrWUawZZ0m2vnN0x3PhHfTh0ztzW5WYc43lk-1709553337-1.0.1.1-rS_KI0foyFiWI2Y5d2fm0s5oFKzrGodnrf_H.Ida19RSFI4HGt1_WBl0B7AzwdkhlRFo.om8KC5mR0mdiHiYug; path=/; expires=Mon, 04-Mar-24 12:25:37 GMT; domain=.jumia.co.ke; HttpOnly; Secure; SameSite=None;
+Sops_Api_Credits: 1
+Vary: Accept-Encoding
+X-Powered-By: Express
+X-Request-Id: 8aa4a579-4214-4f17-bcb4-6a1ba4aae63d
+X-Robots-Tag: none
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip

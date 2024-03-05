@@ -1,0 +1,11 @@
+flask
+pandas
+scrapy
+scrapyrt
+selenium
+requests
+psycopg2
+ipython
+scrapy-selenium
+scrapeops-scrapy-proxy-sdk
+urllib3

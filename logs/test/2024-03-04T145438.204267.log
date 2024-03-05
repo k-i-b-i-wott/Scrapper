@@ -1,0 +1,892 @@
+2024-03-04 14:54:38 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2F> (referer: None) ['cached']
+2024-03-04 14:54:56 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates> (referer: https://www.jumia.co.ke/)
+2024-03-04 14:54:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=2#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates)
+2024-03-04 14:54:58 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fsundabest-set-of-6-ceramic-blue-flowered-plates-177804898.html> (referer: https://www.jumia.co.ke/catalog/?q=plates)
+2024-03-04 14:54:59 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/sundabest-set-of-6-ceramic-blue-flowered-plates-177804898.html>
+{'availability': 'In stock',
+ 'product_brand': 'Sundabest',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/89/8408771/1.jpg?7141',
+ 'product_name': 'Sundabest Set Of 6 Ceramic Blue Flowered Plates',
+ 'product_price': 'KSh 973',
+ 'product_rating': '4.5 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/sundabest-set-of-6-ceramic-blue-flowered-plates-177804898.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:55:05 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D50%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates)
+2024-03-04 14:55:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=50)
+2024-03-04 14:55:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=49#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=50)
+2024-03-04 14:55:15 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D3%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates)
+2024-03-04 14:55:16 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=3)
+2024-03-04 14:55:16 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=2#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=3)
+2024-03-04 14:55:16 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=2#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=3)
+2024-03-04 14:55:16 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=4#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=3)
+2024-03-04 14:55:16 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=3)
+2024-03-04 14:55:19 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D2%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates)
+2024-03-04 14:55:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=2)
+2024-03-04 14:55:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=2)
+2024-03-04 14:55:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=2)
+2024-03-04 14:55:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=2)
+2024-03-04 14:55:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=2)
+2024-03-04 14:55:30 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fnunix-2-tier-stainless-steel-dishrack-157347641.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=50)
+2024-03-04 14:55:30 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/nunix-2-tier-stainless-steel-dishrack-157347641.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Nunix',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/14/6743751/1.jpg?6672',
+ 'product_name': 'Nunix 2 Tier Stainless Steel Dishrack',
+ 'product_price': 'KSh 1,600',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/nunix-2-tier-stainless-steel-dishrack-157347641.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:55:33 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D48%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=50)
+2024-03-04 14:55:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=48)
+2024-03-04 14:55:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=47#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=48)
+2024-03-04 14:55:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=49#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=48)
+2024-03-04 14:55:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=49#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=48)
+2024-03-04 14:55:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=48)
+2024-03-04 14:55:42 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D49%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=50)
+2024-03-04 14:55:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=49)
+2024-03-04 14:55:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=49)
+2024-03-04 14:55:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=49)
+2024-03-04 14:55:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=49)
+2024-03-04 14:55:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=49)
+2024-03-04 14:55:50 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fred-berry-heat-resistant-opal-glassware-156595793.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=3)
+2024-03-04 14:55:50 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/red-berry-heat-resistant-opal-glassware-156595793.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Red Berry',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/7595651/1.jpg?5903',
+ 'product_name': 'Red Berry HEAT RESISTANT OPAL GLASSWARE',
+ 'product_price': 'KSh 2,599',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/red-berry-heat-resistant-opal-glassware-156595793.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:55:59 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D4%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=3)
+2024-03-04 14:55:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=4)
+2024-03-04 14:55:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=4)
+2024-03-04 14:55:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=4)
+2024-03-04 14:55:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=5#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=4)
+2024-03-04 14:55:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=4)
+2024-03-04 14:56:03 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-set-of-6-ceramic-dinner-plates-glossy-black-117379320.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=2)
+2024-03-04 14:56:03 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-set-of-6-ceramic-dinner-plates-glossy-black-117379320.html>
+{'availability': '9 units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/02/3973711/1.jpg?2240',
+ 'product_name': 'Set Of 6 Ceramic Dinner Plates-Glossy Black',
+ 'product_price': 'KSh 2,499',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-set-of-6-ceramic-dinner-plates-glossy-black-117379320.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:56:13 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-top-loadingfront-loading-washing-machine-cover-for-drum-79644963.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=48)
+2024-03-04 14:56:13 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-top-loadingfront-loading-washing-machine-cover-for-drum-79644963.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/944697/1.jpg?0893',
+ 'product_name': 'Top LoadingFront Loading Washing Machine Cover For Drum',
+ 'product_price': 'KSh 1,602',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-top-loadingfront-loading-washing-machine-cover-for-drum-79644963.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:56:18 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D47%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=48)
+2024-03-04 14:56:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=47)
+2024-03-04 14:56:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=46#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=47)
+2024-03-04 14:56:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=47)
+2024-03-04 14:56:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=47)
+2024-03-04 14:56:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=47)
+2024-03-04 14:56:27 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-solid-wood-classic-pipe-smoking-high-quality-new-design-87192312.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=49)
+2024-03-04 14:56:27 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-solid-wood-classic-pipe-smoking-high-quality-new-design-87192312.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/21/329178/1.jpg?9619',
+ 'product_name': 'Solid Wood Classic Pipe Smoking High Quality New Design',
+ 'product_price': 'KSh 1,805',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-solid-wood-classic-pipe-smoking-high-quality-new-design-87192312.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:56:32 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-6-piece-non-stick-cookingserving-spoons-set-150455295.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=4)
+2024-03-04 14:56:32 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-6-piece-non-stick-cookingserving-spoons-set-150455295.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/59/2554051/1.jpg?5627',
+ 'product_name': '6 Piece Non-Stick Cooking/Serving Spoons Set,,',
+ 'product_price': 'KSh 599',
+ 'product_rating': '4 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-6-piece-non-stick-cookingserving-spoons-set-150455295.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:56:44 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D5%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=4)
+2024-03-04 14:56:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=5)
+2024-03-04 14:56:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=4#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=5)
+2024-03-04 14:56:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=4#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=5)
+2024-03-04 14:56:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=6#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=5)
+2024-03-04 14:56:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=5)
+2024-03-04 14:56:59 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D46%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=47)
+2024-03-04 14:56:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=46)
+2024-03-04 14:56:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=45#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=46)
+2024-03-04 14:56:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=47#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=46)
+2024-03-04 14:56:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=47#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=46)
+2024-03-04 14:56:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=46)
+2024-03-04 14:56:59 [scrapy] DEBUG: Retrying <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-texture-case-for-uwell-caliburn-koko-2-silicone-skin-81976157.html> (failed 1 times): User timeout caused connection failure: Getting https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-texture-case-for-uwell-caliburn-koko-2-silicone-skin-81976157.html took longer than 15.0 seconds..
+2024-03-04 14:57:02 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-heavy-duty-3-tier-dish-rack-with-cutlery-holder-172286637.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=5)
+2024-03-04 14:57:02 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-heavy-duty-3-tier-dish-rack-with-cutlery-holder-172286637.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/73/6682271/1.jpg?6525',
+ 'product_name': ' Heavy Duty 3 Tier Dish Rack With Cutlery Holder',
+ 'product_price': 'KSh 6,800',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-heavy-duty-3-tier-dish-rack-with-cutlery-holder-172286637.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:57:12 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D6%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=5)
+2024-03-04 14:57:12 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=6)
+2024-03-04 14:57:12 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=5#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=6)
+2024-03-04 14:57:12 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=5#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=6)
+2024-03-04 14:57:12 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=7#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=6)
+2024-03-04 14:57:12 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=6)
+2024-03-04 14:57:18 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-short-handle-10-packets-of-small-wooden-spoon-for-jars-115947932.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=46)
+2024-03-04 14:57:18 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-short-handle-10-packets-of-small-wooden-spoon-for-jars-115947932.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/9749511/1.jpg?9878',
+ 'product_name': 'Short Handle 10 Packets Of Small Wooden Spoon For Jars',
+ 'product_price': 'KSh 927',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-short-handle-10-packets-of-small-wooden-spoon-for-jars-115947932.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'None'}
+2024-03-04 14:57:21 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D45%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=46)
+2024-03-04 14:57:21 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=45)
+2024-03-04 14:57:21 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=44#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=45)
+2024-03-04 14:57:21 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=46#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=45)
+2024-03-04 14:57:21 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=46#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=45)
+2024-03-04 14:57:21 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=45)
+2024-03-04 14:57:26 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-texture-case-for-uwell-caliburn-koko-2-silicone-skin-81976157.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=47)
+2024-03-04 14:57:26 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-texture-case-for-uwell-caliburn-koko-2-silicone-skin-81976157.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/75/167918/1.jpg?7944',
+ 'product_name': 'Texture Case For Uwell Caliburn KOKO 2 Silicone Skin',
+ 'product_price': 'KSh 5,872',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-texture-case-for-uwell-caliburn-koko-2-silicone-skin-81976157.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:57:41 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Frashnik-dishrack-kitchen-dish-drying-rack-over-sink-storage-62090027.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=6)
+2024-03-04 14:57:41 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/rashnik-dishrack-kitchen-dish-drying-rack-over-sink-storage-62090027.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Rashnik',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/72/009026/1.jpg?5607',
+ 'product_name': 'Rashnik Dishrack Kitchen Dish Drying Rack Over Sink Storage',
+ 'product_price': 'KSh 1,649',
+ 'product_rating': '4 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/rashnik-dishrack-kitchen-dish-drying-rack-over-sink-storage-62090027.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:57:45 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D7%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=6)
+2024-03-04 14:57:45 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=7)
+2024-03-04 14:57:45 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=6#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=7)
+2024-03-04 14:57:45 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=6#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=7)
+2024-03-04 14:57:45 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=8#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=7)
+2024-03-04 14:57:45 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=7)
+2024-03-04 14:57:50 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-4x-dip-bowl-saucer-sushi-butter-dish-soup-bowl-food-67162700.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=45)
+2024-03-04 14:57:50 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-4x-dip-bowl-saucer-sushi-butter-dish-soup-bowl-food-67162700.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/00/726176/1.jpg?6830',
+ 'product_name': '4x  Dip Bowl Saucer Sushi Butter Dish Soup Bowl Food',
+ 'product_price': 'KSh 1,957',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-4x-dip-bowl-saucer-sushi-butter-dish-soup-bowl-food-67162700.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:57:59 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D44%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=45)
+2024-03-04 14:58:00 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=44)
+2024-03-04 14:58:00 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=43#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=44)
+2024-03-04 14:58:00 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=45#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=44)
+2024-03-04 14:58:00 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=45#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=44)
+2024-03-04 14:58:00 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=44)
+2024-03-04 14:58:06 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-6-pcs-square-dinner-plates-168586866.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=7)
+2024-03-04 14:58:06 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-6-pcs-square-dinner-plates-168586866.html>
+{'availability': '2 units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/66/8685861/1.jpg?2344',
+ 'product_name': '6 pcs square Dinner plates',
+ 'product_price': 'KSh 1,900',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-6-pcs-square-dinner-plates-168586866.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:58:17 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D8%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=7)
+2024-03-04 14:58:17 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=8)
+2024-03-04 14:58:17 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=7#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=8)
+2024-03-04 14:58:17 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=7#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=8)
+2024-03-04 14:58:17 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=9#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=8)
+2024-03-04 14:58:17 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=8)
+2024-03-04 14:58:22 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-under-sink-organizers-and-storage-2-tier-sliding-pull-out-drawer-154504549.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=44)
+2024-03-04 14:58:22 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-under-sink-organizers-and-storage-2-tier-sliding-pull-out-drawer-154504549.html>
+{'availability': '4 units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/5405451/1.jpg?4962',
+ 'product_name': 'Under Sink Organizers and Storage 2-Tier, Sliding Pull Out '
+                 'Drawer',
+ 'product_price': 'KSh 9,006',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-under-sink-organizers-and-storage-2-tier-sliding-pull-out-drawer-154504549.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'None'}
+2024-03-04 14:58:33 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D43%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=44)
+2024-03-04 14:58:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=43)
+2024-03-04 14:58:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=42#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=43)
+2024-03-04 14:58:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=44#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=43)
+2024-03-04 14:58:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=44#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=43)
+2024-03-04 14:58:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=43)
+2024-03-04 14:58:39 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fmelamine-6pcs-10.5-heavy-duty-melamine-plate-89325453.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=8)
+2024-03-04 14:58:39 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/melamine-6pcs-10.5-heavy-duty-melamine-plate-89325453.html>
+{'availability': 'In stock',
+ 'product_brand': 'Melamine',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/452398/1.jpg?7801',
+ 'product_name': 'Melamine 6pcs 10.5" Heavy Duty Melamine Plate',
+ 'product_price': 'KSh 1,599',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/melamine-6pcs-10.5-heavy-duty-melamine-plate-89325453.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:58:52 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D9%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=8)
+2024-03-04 14:58:52 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=9)
+2024-03-04 14:58:52 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=8#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=9)
+2024-03-04 14:58:52 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=8#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=9)
+2024-03-04 14:58:52 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=10#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=9)
+2024-03-04 14:58:52 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=9)
+2024-03-04 14:58:56 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-metallic-number-plate-holdersframes-set-new-generation-158944468.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=43)
+2024-03-04 14:58:57 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-metallic-number-plate-holdersframes-set-new-generation-158944468.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/86/4449851/1.jpg?3567',
+ 'product_name': 'Metallic Number Plate Holders/Frames - SET New Generation',
+ 'product_price': 'KSh 1,599',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-metallic-number-plate-holdersframes-set-new-generation-158944468.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:59:00 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D42%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=43)
+2024-03-04 14:59:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=42)
+2024-03-04 14:59:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=41#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=42)
+2024-03-04 14:59:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=43#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=42)
+2024-03-04 14:59:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=43#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=42)
+2024-03-04 14:59:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=42)
+2024-03-04 14:59:16 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-over-the-sink-dish-drying-rack-85cm-width-177810737.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=9)
+2024-03-04 14:59:16 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-over-the-sink-dish-drying-rack-85cm-width-177810737.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/73/7018771/1.jpg?4865',
+ 'product_name': 'Over The Sink Dish Drying Rack 85cm Width',
+ 'product_price': 'KSh 4,999',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-over-the-sink-dish-drying-rack-85cm-width-177810737.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:59:25 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D10%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=9)
+2024-03-04 14:59:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=10)
+2024-03-04 14:59:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=9#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=10)
+2024-03-04 14:59:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=9#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=10)
+2024-03-04 14:59:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=11#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=10)
+2024-03-04 14:59:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=10)
+2024-03-04 14:59:25 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-sponge-soap-brush-holder-kitchen-soap-caddy-countertop-144346622.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=42)
+2024-03-04 14:59:25 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-sponge-soap-brush-holder-kitchen-soap-caddy-countertop-144346622.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/6643441/1.jpg?7032',
+ 'product_name': 'Sponge Soap Brush Holder Kitchen Soap Caddy Countertop',
+ 'product_price': 'KSh 2,858',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-sponge-soap-brush-holder-kitchen-soap-caddy-countertop-144346622.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1'}
+2024-03-04 14:59:38 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D41%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=42)
+2024-03-04 14:59:38 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=41)
+2024-03-04 14:59:38 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=40#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=41)
+2024-03-04 14:59:38 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=42#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=41)
+2024-03-04 14:59:38 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=42#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=41)
+2024-03-04 14:59:38 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=41)
+2024-03-04 14:59:42 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-2x-led-dynamic-turn-signal-lamp-blinker-for-peugeot-307-206-407-107-607-1007-citroen-c1-c2-c3-c5-c6-sequential-side-marker-light-crystal-60919836.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=10)
+2024-03-04 14:59:42 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-2x-led-dynamic-turn-signal-lamp-blinker-for-peugeot-307-206-407-107-607-1007-citroen-c1-c2-c3-c5-c6-sequential-side-marker-light-crystal-60919836.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/891906/1.jpg?8175',
+ 'product_name': '2X LED Dynamic Turn Signal Lamp Blinker For Peugeot 307 206 '
+                 '407 107 607 1007 Citroen C1 C2 C3 C5 C6 Sequential Side '
+                 'Marker Light Crystal',
+ 'product_price': 'KSh 3,290',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-2x-led-dynamic-turn-signal-lamp-blinker-for-peugeot-307-206-407-107-607-1007-citroen-c1-c2-c3-c5-c6-sequential-side-marker-light-crystal-60919836.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 14:59:49 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D11%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=10)
+2024-03-04 14:59:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=11)
+2024-03-04 14:59:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=10#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=11)
+2024-03-04 14:59:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=10#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=11)
+2024-03-04 14:59:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=12#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=11)
+2024-03-04 14:59:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=11)
+2024-03-04 14:59:57 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-utv-atv-motorcycle-amp-speakers-usb-audio-system-stereo-66146821.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=41)
+2024-03-04 14:59:57 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-utv-atv-motorcycle-amp-speakers-usb-audio-system-stereo-66146821.html>
+{'availability': '1 units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/12/864166/1.jpg?1701',
+ 'product_name': 'UTV ATV Motorcycle AMP Speakers USB Audio System Stereo',
+ 'product_price': 'KSh 5,208',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-utv-atv-motorcycle-amp-speakers-usb-audio-system-stereo-66146821.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:00:06 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D40%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=41)
+2024-03-04 15:00:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=40)
+2024-03-04 15:00:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=39#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=40)
+2024-03-04 15:00:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=41#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=40)
+2024-03-04 15:00:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=41#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=40)
+2024-03-04 15:00:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=40)
+2024-03-04 15:00:11 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-heavy-duty-3-tier-dish-rack-with-cutlery-holder-188405402.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=11)
+2024-03-04 15:00:11 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-heavy-duty-3-tier-dish-rack-with-cutlery-holder-188405402.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/4504881/1.jpg?6026',
+ 'product_name': 'Heavy Duty 3 Tier Dish Rack With Cutlery Holder',
+ 'product_price': 'KSh 5,499',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-heavy-duty-3-tier-dish-rack-with-cutlery-holder-188405402.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:00:20 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D12%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=11)
+2024-03-04 15:00:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=12)
+2024-03-04 15:00:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=11#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=12)
+2024-03-04 15:00:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=11#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=12)
+2024-03-04 15:00:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=13#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=12)
+2024-03-04 15:00:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=12)
+2024-03-04 15:00:27 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-faucet-sponge-holder-for-kitchen-sink-organizer-stainless-139339454.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=40)
+2024-03-04 15:00:27 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-faucet-sponge-holder-for-kitchen-sink-organizer-stainless-139339454.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/45/4933931/1.jpg?6958',
+ 'product_name': 'Faucet Sponge Holder For Kitchen Sink Organizer Stainless',
+ 'product_price': 'KSh 1,156',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-faucet-sponge-holder-for-kitchen-sink-organizer-stainless-139339454.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1'}
+2024-03-04 15:00:40 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-1000-w-electric-single-spiral-hotplate-cooker-162866454.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=12)
+2024-03-04 15:00:41 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-1000-w-electric-single-spiral-hotplate-cooker-162866454.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/45/4668261/1.jpg?0352',
+ 'product_name': ' 1000 W Electric Single Spiral Hotplate Cooker',
+ 'product_price': 'KSh 1,300',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-1000-w-electric-single-spiral-hotplate-cooker-162866454.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:00:42 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D39%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=40)
+2024-03-04 15:00:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=39)
+2024-03-04 15:00:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=38#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=39)
+2024-03-04 15:00:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=40#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=39)
+2024-03-04 15:00:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=40#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=39)
+2024-03-04 15:00:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=39)
+2024-03-04 15:00:47 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D13%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=12)
+2024-03-04 15:00:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=13)
+2024-03-04 15:00:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=12#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=13)
+2024-03-04 15:00:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=12#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=13)
+2024-03-04 15:00:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=14#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=13)
+2024-03-04 15:00:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=13)
+2024-03-04 15:00:52 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fmelamine-p002-9-oasis-melamine-soup-plate-six-piece-142589893.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=39)
+2024-03-04 15:00:52 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/melamine-p002-9-oasis-melamine-soup-plate-six-piece-142589893.html>
+{'availability': 'In stock',
+ 'product_brand': 'Melamine',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/8985241/1.jpg?1164',
+ 'product_name': 'Melamine P002 9" Oasis Melamine Soup Plate Six Piece',
+ 'product_price': 'KSh 1,310',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/melamine-p002-9-oasis-melamine-soup-plate-six-piece-142589893.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:00:58 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D38%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=39)
+2024-03-04 15:00:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=38)
+2024-03-04 15:00:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=37#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=38)
+2024-03-04 15:00:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=39#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=38)
+2024-03-04 15:00:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=39#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=38)
+2024-03-04 15:00:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=38)
+2024-03-04 15:01:07 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fluminarc-set-of-6-beautiful-dinner-serving-ceramic-plates-150616702.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=13)
+2024-03-04 15:01:07 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/luminarc-set-of-6-beautiful-dinner-serving-ceramic-plates-150616702.html>
+{'availability': 'In stock',
+ 'product_brand': 'Luminarc',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/7616051/1.jpg?7267',
+ 'product_name': 'Luminarc Set Of 6 Beautiful Dinner Serving Ceramic Plates',
+ 'product_price': 'KSh 2,600',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/luminarc-set-of-6-beautiful-dinner-serving-ceramic-plates-150616702.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '5'}
+2024-03-04 15:01:20 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D14%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=13)
+2024-03-04 15:01:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=14)
+2024-03-04 15:01:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=13#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=14)
+2024-03-04 15:01:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=13#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=14)
+2024-03-04 15:01:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=15#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=14)
+2024-03-04 15:01:20 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=14)
+2024-03-04 15:01:25 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-6-pcs-deluxe-melamine-partition-dinner-lunch-plates-139500837.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=38)
+2024-03-04 15:01:25 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-6-pcs-deluxe-melamine-partition-dinner-lunch-plates-139500837.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/73/8005931/1.jpg?1082',
+ 'product_name': '6 Pcs Deluxe Melamine Partition Dinner Lunch Plates',
+ 'product_price': 'KSh 1,204',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-6-pcs-deluxe-melamine-partition-dinner-lunch-plates-139500837.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:01:33 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D37%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=38)
+2024-03-04 15:01:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=37)
+2024-03-04 15:01:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=36#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=37)
+2024-03-04 15:01:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=38#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=37)
+2024-03-04 15:01:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=38#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=37)
+2024-03-04 15:01:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=37)
+2024-03-04 15:01:39 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fnunix-2-tier-dish-racknon-stick-cooking-spoonsnonstick-pan-93925793.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=14)
+2024-03-04 15:01:39 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/nunix-2-tier-dish-racknon-stick-cooking-spoonsnonstick-pan-93925793.html>
+{'availability': 'In stock',
+ 'product_brand': 'Nunix',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/752939/1.jpg?9332',
+ 'product_name': 'Nunix 2 TIER DISH RACK+Non-Stick Cooking Spoons+nonstick Pan',
+ 'product_price': 'KSh 2,499',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/nunix-2-tier-dish-racknon-stick-cooking-spoonsnonstick-pan-93925793.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:01:47 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D15%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=14)
+2024-03-04 15:01:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=15)
+2024-03-04 15:01:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=14#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=15)
+2024-03-04 15:01:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=14#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=15)
+2024-03-04 15:01:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=16#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=15)
+2024-03-04 15:01:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=15)
+2024-03-04 15:01:58 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-430-stainless-steel-spoon-rest-utensils-holder-soup-ladle-141500139.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=37)
+2024-03-04 15:01:58 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-430-stainless-steel-spoon-rest-utensils-holder-soup-ladle-141500139.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/93/1005141/1.jpg?8274',
+ 'product_name': '430 Stainless Steel Spoon Rest Utensils Holder Soup Ladle',
+ 'product_price': 'KSh 1,754',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-430-stainless-steel-spoon-rest-utensils-holder-soup-ladle-141500139.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '1'}
+2024-03-04 15:01:58 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D36%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=37)
+2024-03-04 15:01:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=36)
+2024-03-04 15:01:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=35#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=36)
+2024-03-04 15:01:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=37#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=36)
+2024-03-04 15:01:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=37#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=36)
+2024-03-04 15:01:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=36)
+2024-03-04 15:02:11 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-2pcs-canbus-white-for-toyota-yarisvitz-camry-corolla-prius-c-ractis-verso-s-led-licence-number-plate-led-lamp-light-oem-replace-60921063.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=15)
+2024-03-04 15:02:11 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-2pcs-canbus-white-for-toyota-yarisvitz-camry-corolla-prius-c-ractis-verso-s-led-licence-number-plate-led-lamp-light-oem-replace-60921063.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/012906/1.jpg?8798',
+ 'product_name': '2PCS CANbus White For Toyota Yaris/Vitz Camry Corolla Prius '
+                 'C Ractis Verso S Led Licence Number Plate LED Lamp Light OEM '
+                 'REPLACE',
+ 'product_price': 'KSh 3,290',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-2pcs-canbus-white-for-toyota-yarisvitz-camry-corolla-prius-c-ractis-verso-s-led-licence-number-plate-led-lamp-light-oem-replace-60921063.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:02:13 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D16%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=15)
+2024-03-04 15:02:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=16)
+2024-03-04 15:02:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=15#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=16)
+2024-03-04 15:02:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=15#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=16)
+2024-03-04 15:02:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=17#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=16)
+2024-03-04 15:02:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=16)
+2024-03-04 15:02:20 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-metal-wine-rack-with-bottle-holders-wall-mounted-organizer-glassware-storage-shelf-display-hanging-home-kitchen-decoration-130508079.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=36)
+2024-03-04 15:02:20 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-metal-wine-rack-with-bottle-holders-wall-mounted-organizer-glassware-storage-shelf-display-hanging-home-kitchen-decoration-130508079.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/97/0805031/1.jpg?2663',
+ 'product_name': 'Metal Wine Rack With Bottle Holders Wall Mounted Organizer '
+                 'Glassware Storage Shelf Display Hanging Home Kitchen '
+                 'Decoration',
+ 'product_price': 'KSh 5,508',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-metal-wine-rack-with-bottle-holders-wall-mounted-organizer-glassware-storage-shelf-display-hanging-home-kitchen-decoration-130508079.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:02:33 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D35%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=36)
+2024-03-04 15:02:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=35)
+2024-03-04 15:02:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=34#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=35)
+2024-03-04 15:02:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=36#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=35)
+2024-03-04 15:02:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=36#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=35)
+2024-03-04 15:02:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=35)
+2024-03-04 15:02:38 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fluminarc-classic-ceramic-dinner-plates-157348237.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=16)
+2024-03-04 15:02:38 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/luminarc-classic-ceramic-dinner-plates-157348237.html>
+{'availability': 'In stock',
+ 'product_brand': 'Luminarc',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/73/2843751/1.jpg?5277',
+ 'product_name': 'Luminarc Classic Ceramic Dinner Plates',
+ 'product_price': 'KSh 3,395',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/luminarc-classic-ceramic-dinner-plates-157348237.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:02:42 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D17%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=16)
+2024-03-04 15:02:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=17)
+2024-03-04 15:02:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=16#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=17)
+2024-03-04 15:02:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=16#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=17)
+2024-03-04 15:02:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=18#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=17)
+2024-03-04 15:02:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=17)
+2024-03-04 15:02:48 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-3-tier-dish-rack-with-cutlery-holder-chop-board-holder-pack-of-1-136097302.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=35)
+2024-03-04 15:02:48 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-3-tier-dish-rack-with-cutlery-holder-chop-board-holder-pack-of-1-136097302.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/3790631/1.jpg?9171',
+ 'product_name': '3 Tier Dish Rack With Cutlery Holder & Chop Board Holder, '
+                 'Pack Of 1',
+ 'product_price': 'KSh 6,500',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-3-tier-dish-rack-with-cutlery-holder-chop-board-holder-pack-of-1-136097302.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'No warranty'}
+2024-03-04 15:02:58 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D34%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=35)
+2024-03-04 15:02:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=34)
+2024-03-04 15:02:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=33#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=34)
+2024-03-04 15:02:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=35#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=34)
+2024-03-04 15:02:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=35#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=34)
+2024-03-04 15:02:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=34)
+2024-03-04 15:03:04 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-obd2-cable-for-honda-3pin-obd1-adapter-obd2-obdii-for-honda-96609439.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=17)
+2024-03-04 15:03:04 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-obd2-cable-for-honda-3pin-obd1-adapter-obd2-obdii-for-honda-96609439.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/93/490669/1.jpg?3350',
+ 'product_name': 'OBD2 Cable For Honda 3Pin OBD1 Adapter OBD2 OBDII For Honda',
+ 'product_price': 'KSh 854',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-obd2-cable-for-honda-3pin-obd1-adapter-obd2-obdii-for-honda-96609439.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'None'}
+2024-03-04 15:03:13 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D18%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=17)
+2024-03-04 15:03:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=18)
+2024-03-04 15:03:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=17#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=18)
+2024-03-04 15:03:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=17#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=18)
+2024-03-04 15:03:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=19#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=18)
+2024-03-04 15:03:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=18)
+2024-03-04 15:03:26 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-4pcs-korean-dipping-dish-western-steak-sauce-dish-stainless-177553149.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=34)
+2024-03-04 15:03:26 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-4pcs-korean-dipping-dish-western-steak-sauce-dish-stainless-177553149.html>
+{'availability': '1 units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/1355771/1.jpg?7405',
+ 'product_name': '4PCS Korean Dipping Dish Western Steak Sauce Dish Stainless',
+ 'product_price': 'KSh 1,500',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-4pcs-korean-dipping-dish-western-steak-sauce-dish-stainless-177553149.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'None'}
+2024-03-04 15:03:34 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D33%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=34)
+2024-03-04 15:03:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=33)
+2024-03-04 15:03:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=32#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=33)
+2024-03-04 15:03:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=34#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=33)
+2024-03-04 15:03:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=34#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=33)
+2024-03-04 15:03:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=33)
+2024-03-04 15:03:41 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-set-of-6-beautiful-dinner-serving-ceramic-plates-147759379.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=18)
+2024-03-04 15:03:41 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-set-of-6-beautiful-dinner-serving-ceramic-plates-147759379.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/97/3957741/1.jpg?3708',
+ 'product_name': 'Set Of 6 Beautiful Dinner Serving Ceramic Plates',
+ 'product_price': 'KSh 1,995',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-set-of-6-beautiful-dinner-serving-ceramic-plates-147759379.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:03:47 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D19%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=18)
+2024-03-04 15:03:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=19)
+2024-03-04 15:03:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=18#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=19)
+2024-03-04 15:03:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=18#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=19)
+2024-03-04 15:03:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=20#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=19)
+2024-03-04 15:03:47 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=19)
+2024-03-04 15:03:49 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-1pc-peva-sunscreen-dust-proof-cover-washing-machine-cover-79633053.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=33)
+2024-03-04 15:03:49 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-1pc-peva-sunscreen-dust-proof-cover-washing-machine-cover-79633053.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/033697/1.jpg?8695',
+ 'product_name': '1PC PEVA Sunscreen Dust Proof Cover Washing Machine Cover',
+ 'product_price': 'KSh 2,568',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-1pc-peva-sunscreen-dust-proof-cover-washing-machine-cover-79633053.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:04:02 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D32%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=33)
+2024-03-04 15:04:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=32)
+2024-03-04 15:04:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=31#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=32)
+2024-03-04 15:04:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=33#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=32)
+2024-03-04 15:04:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=33#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=32)
+2024-03-04 15:04:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=32)
+2024-03-04 15:04:07 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-14cm-christmas-embroidery-flower-applique-table-placemat-17cm-cup-pad-cover-coffee-mug-drinks-coasters-for-glasses-year-items-pw2-167739656.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=19)
+2024-03-04 15:04:07 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-14cm-christmas-embroidery-flower-applique-table-placemat-17cm-cup-pad-cover-coffee-mug-drinks-coasters-for-glasses-year-items-pw2-167739656.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/65/6937761/1.jpg?1732',
+ 'product_name': '14CM Christmas Embroidery Flower Applique Table Placemat '
+                 '17cm Cup Pad Cover Coffee Mug Drinks Coasters For Glasses '
+                 'Year Items PW2',
+ 'product_price': 'KSh 2,515',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-14cm-christmas-embroidery-flower-applique-table-placemat-17cm-cup-pad-cover-coffee-mug-drinks-coasters-for-glasses-year-items-pw2-167739656.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:04:22 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D20%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=19)
+2024-03-04 15:04:22 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=20)
+2024-03-04 15:04:22 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=19#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=20)
+2024-03-04 15:04:22 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=19#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=20)
+2024-03-04 15:04:22 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=21#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=20)
+2024-03-04 15:04:22 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=20)
+2024-03-04 15:04:23 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-5kg-gym-weight-plate-black-cast-iron-173476034.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=32)
+2024-03-04 15:04:23 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-5kg-gym-weight-plate-black-cast-iron-173476034.html>
+{'availability': '3 units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/43/0674371/1.jpg?0186',
+ 'product_name': '5kg Gym Weight Plate Black Cast Iron',
+ 'product_price': 'KSh 2,330',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-5kg-gym-weight-plate-black-cast-iron-173476034.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:04:41 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D31%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=32)
+2024-03-04 15:04:41 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=31)
+2024-03-04 15:04:41 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=30#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=31)
+2024-03-04 15:04:41 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=32#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=31)
+2024-03-04 15:04:41 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=32#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=31)
+2024-03-04 15:04:41 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=31)
+2024-03-04 15:04:44 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-bowl-meditation-sound-tibetan-singing-bowls-gifts-set-122947334.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=20)
+2024-03-04 15:04:44 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-bowl-meditation-sound-tibetan-singing-bowls-gifts-set-122947334.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/43/3749221/1.jpg?4606',
+ 'product_name': 'Bowl Meditation Sound Tibetan Singing Bowls Gifts Set',
+ 'product_price': 'KSh 4,690',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-bowl-meditation-sound-tibetan-singing-bowls-gifts-set-122947334.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:04:46 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D21%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=20)
+2024-03-04 15:04:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=21)
+2024-03-04 15:04:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=20#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=21)
+2024-03-04 15:04:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=20#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=21)
+2024-03-04 15:04:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=22#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=21)
+2024-03-04 15:04:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=21)
+2024-03-04 15:04:56 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-set-of-6-pieces-beautiful-dinner-serving-ceramic-plates-168272846.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=31)
+2024-03-04 15:04:56 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-set-of-6-pieces-beautiful-dinner-serving-ceramic-plates-168272846.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/64/8272861/1.jpg?8624',
+ 'product_name': 'Set of 6 pieces Beautiful Dinner Serving Ceramic Plates',
+ 'product_price': 'KSh 2,499',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-set-of-6-pieces-beautiful-dinner-serving-ceramic-plates-168272846.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:04:58 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D30%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=31)
+2024-03-04 15:04:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=30)
+2024-03-04 15:04:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=29#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=30)
+2024-03-04 15:04:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=31#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=30)
+2024-03-04 15:04:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=31#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=30)
+2024-03-04 15:04:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=30)
+2024-03-04 15:05:05 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-windproof-ash-tray-vintage-zinc-alloy-flower-pattern-79609427.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=21)
+2024-03-04 15:05:05 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-windproof-ash-tray-vintage-zinc-alloy-flower-pattern-79609427.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/72/490697/1.jpg?3391',
+ 'product_name': 'Windproof Ash Tray Vintage Zinc Alloy Flower Pattern',
+ 'product_price': 'KSh 1,983',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-windproof-ash-tray-vintage-zinc-alloy-flower-pattern-79609427.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:05:17 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D22%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=21)
+2024-03-04 15:05:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=22)
+2024-03-04 15:05:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=21#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=22)
+2024-03-04 15:05:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=21#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=22)
+2024-03-04 15:05:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=23#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=22)
+2024-03-04 15:05:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=22)
+2024-03-04 15:05:19 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-17sets-fresh-keeping-food-box-green-cover.-189623228.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=30)
+2024-03-04 15:05:19 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-17sets-fresh-keeping-food-box-green-cover.-189623228.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/82/2326981/1.jpg?9944',
+ 'product_name': '17/sets Fresh-keeping Food Box Green Cover.',
+ 'product_price': 'KSh 2,200',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-17sets-fresh-keeping-food-box-green-cover.-189623228.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:05:29 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D29%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=30)
+2024-03-04 15:05:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=29)
+2024-03-04 15:05:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=28#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=29)
+2024-03-04 15:05:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=30#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=29)
+2024-03-04 15:05:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=30#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=29)
+2024-03-04 15:05:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=29)
+2024-03-04 15:05:36 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-drawer-mat-waterproof-shelves-mats-moisture-proof-cabinet-79679779.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=22)
+2024-03-04 15:05:36 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-drawer-mat-waterproof-shelves-mats-moisture-proof-cabinet-79679779.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/97/797697/1.jpg?8221',
+ 'product_name': 'Drawer Mat Waterproof Shelves Mats Moisture-Proof Cabinet',
+ 'product_price': 'KSh 3,293',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-drawer-mat-waterproof-shelves-mats-moisture-proof-cabinet-79679779.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:05:40 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D23%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=22)
+2024-03-04 15:05:40 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=23)
+2024-03-04 15:05:40 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=22#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=23)
+2024-03-04 15:05:40 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=22#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=23)
+2024-03-04 15:05:40 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=24#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=23)
+2024-03-04 15:05:40 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=23)
+2024-03-04 15:05:52 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-wooden-show-jewelry-tray-store-jewelry-storage-showcase-156704893.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=29)
+2024-03-04 15:05:53 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-wooden-show-jewelry-tray-store-jewelry-storage-showcase-156704893.html>
+{'availability': '1 units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/8407651/1.jpg?5925',
+ 'product_name': 'Wooden Show Jewelry Tray Store Jewelry Storage Showcase',
+ 'product_price': 'KSh 741',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-wooden-show-jewelry-tray-store-jewelry-storage-showcase-156704893.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:05:59 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D28%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=29)
+2024-03-04 15:05:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=28)
+2024-03-04 15:05:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=27#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=28)
+2024-03-04 15:05:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=29#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=28)
+2024-03-04 15:05:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=29#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=28)
+2024-03-04 15:05:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=28)
+2024-03-04 15:06:03 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-20-kg-olympic-barbell-plates-gym-weight-plates-48038378.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=23)
+2024-03-04 15:06:03 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-20-kg-olympic-barbell-plates-gym-weight-plates-48038378.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/383084/1.jpg?3129',
+ 'product_name': '20 Kg Olympic Barbell Plates Gym Weight Plates',
+ 'product_price': 'KSh 16,500',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-20-kg-olympic-barbell-plates-gym-weight-plates-48038378.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'None'}
+2024-03-04 15:06:11 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D24%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=23)
+2024-03-04 15:06:11 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=24)
+2024-03-04 15:06:11 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=23#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=24)
+2024-03-04 15:06:11 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=23#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=24)
+2024-03-04 15:06:11 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=25#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=24)
+2024-03-04 15:06:11 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=24)
+2024-03-04 15:06:19 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-6pcs-round-ceramic-plates-156943035.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=28)
+2024-03-04 15:06:19 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-6pcs-round-ceramic-plates-156943035.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/53/0349651/1.jpg?2974',
+ 'product_name': '6pcs Round Ceramic Plates',
+ 'product_price': 'KSh 5,418',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-6pcs-round-ceramic-plates-156943035.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:06:24 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D27%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=28)
+2024-03-04 15:06:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=27)
+2024-03-04 15:06:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=26#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=27)
+2024-03-04 15:06:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=28#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=27)
+2024-03-04 15:06:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=28#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=27)
+2024-03-04 15:06:25 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=27)
+2024-03-04 15:06:32 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-ceramic-orange-leaf-plate-66767430.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=24)
+2024-03-04 15:06:32 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-ceramic-orange-leaf-plate-66767430.html>
+{'availability': 'Some variations with low stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/03/476766/1.jpg?4150',
+ 'product_name': 'Ceramic  Orange Leaf Plate',
+ 'product_price': 'KSh 750 - KSh 1,300',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-ceramic-orange-leaf-plate-66767430.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:06:42 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D25%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=24)
+2024-03-04 15:06:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=25)
+2024-03-04 15:06:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=24#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=25)
+2024-03-04 15:06:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=24#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=25)
+2024-03-04 15:06:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=26#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=25)
+2024-03-04 15:06:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=26#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=25)
+2024-03-04 15:06:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=25)
+2024-03-04 15:06:49 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fred-berry-shell-dinner-plates6pcs-156843238.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=27)
+2024-03-04 15:06:49 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/red-berry-shell-dinner-plates6pcs-156843238.html>
+{'availability': 'In stock',
+ 'product_brand': 'Red Berry',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/2348651/1.jpg?2868',
+ 'product_name': 'Red Berry Shell Dinner Plates,6pcs',
+ 'product_price': 'KSh 2,525',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/red-berry-shell-dinner-plates6pcs-156843238.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:06:54 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fcatalog%2F%3Fq%3Dplates%26page%3D26%23catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=27)
+2024-03-04 15:06:54 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=26)
+2024-03-04 15:06:54 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=25#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=26)
+2024-03-04 15:06:54 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=25#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=26)
+2024-03-04 15:06:54 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=27#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=26)
+2024-03-04 15:06:54 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=27#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=26)
+2024-03-04 15:06:54 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=plates&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=26)
+2024-03-04 15:07:02 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-dish-rack-2-layered-advanced-new-model-with-gold-and-black-189095814.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=25)
+2024-03-04 15:07:02 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-dish-rack-2-layered-advanced-new-model-with-gold-and-black-189095814.html>
+{'availability': '5 units left',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/8590981/1.jpg?6664',
+ 'product_name': 'Dish rack 2 layered advanced new model with gold and black ',
+ 'product_price': 'KSh 6,500',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-dish-rack-2-layered-advanced-new-model-with-gold-and-black-189095814.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:07:07 [scrapy] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=84cfe2fc-849d-489d-a4f3-bad029245877&url=https%3A%2F%2Fwww.jumia.co.ke%2Fgeneric-36pc-executive-egg-shaped-cutlery-set-gold-colour-167885539.html> (referer: https://www.jumia.co.ke/catalog/?q=plates&page=26)
+2024-03-04 15:07:07 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/generic-36pc-executive-egg-shaped-cutlery-set-gold-colour-167885539.html>
+{'availability': 'In stock',
+ 'product_brand': 'Brand not available',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/93/5588761/1.jpg?5207',
+ 'product_name': '36pc Executive Egg-Shaped Cutlery Set Gold colour',
+ 'product_price': 'KSh 4,999',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/generic-36pc-executive-egg-shaped-cutlery-set-gold-colour-167885539.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-04 15:07:07 [scrapy] INFO: Closing spider (finished)
+2024-03-04 15:07:07 [scrapy] INFO: Stored json feed (50 items) in: search_data.json
+2024-03-04 15:07:07 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 1,
+ 'downloader/request_bytes': 43504,
+ 'downloader/request_count': 102,
+ 'downloader/request_method_count/GET': 102,
+ 'downloader/response_bytes': 4415566,
+ 'downloader/response_count': 101,
+ 'downloader/response_status_count/200': 101,
+ 'dupefilter/filtered': 245,
+ 'elapsed_time_seconds': 749.333351,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 3, 4, 12, 7, 7, 603440, tzinfo=datetime.timezone.utc),
+ 'httpcache/firsthand': 100,
+ 'httpcache/hit': 1,
+ 'httpcache/miss': 101,
+ 'httpcache/store': 100,
+ 'httpcompression/response_bytes': 19464055,
+ 'httpcompression/response_count': 101,
+ 'item_scraped_count': 50,
+ 'log_count/DEBUG': 824,
+ 'log_count/INFO': 12,
+ 'request_depth_max': 26,
+ 'response_received_count': 101,
+ 'retry/count': 1,
+ 'retry/reason_count/twisted.internet.error.TimeoutError': 1,
+ 'scheduler/dequeued': 203,
+ 'scheduler/dequeued/memory': 203,
+ 'scheduler/enqueued': 203,
+ 'scheduler/enqueued/memory': 203,
+ 'start_time': datetime.datetime(2024, 3, 4, 11, 54, 38, 270089, tzinfo=datetime.timezone.utc)}
+2024-03-04 15:07:07 [scrapy] INFO: Spider closed (finished)

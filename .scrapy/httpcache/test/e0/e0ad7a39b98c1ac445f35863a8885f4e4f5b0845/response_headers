@@ -1,0 +1,15 @@
+Server: nginx
+Date: Mon, 26 Feb 2024 13:04:05 GMT
+Content-Type: text/html; charset=utf-8
+Permissions-Policy: browsing-topics=()
+Referrer-Policy: strict-origin-when-cross-origin
+Set-Cookie: ABTests=%5B%7B%22name%22%3A%22CLP%22%2C%22scenario%22%3A%22B%22%2C%22updatedAt%22%3A1680685841%7D%2C%7B%22name%22%3A%22Cart%22%2C%22scenario%22%3A%22S%22%2C%22updatedAt%22%3A1621323098%7D%2C%7B%22name%22%3A%22SponProdPdp%22%2C%22scenario%22%3A%22A%22%2C%22updatedAt%22%3A1698939590%7D%5D; Domain=jumia.co.ke; Expires=Wed, 26 Feb 2025 13:04:04 GMT; Path=/SOLSESSID=2b6ed5d56dcd73fd35186a2b8612bedd; Domain=jumia.co.ke; Expires=Mon, 26 Feb 2024 13:28:04 GMT; Path=/;__cf_bm=if1nc1lNNXD6cO8jO1Xz6pS_e4dufp9MGbur7.Sbf1o-1708952644-1.0-AdQkkKIAfCsmYS/uQNiR0zDb/O8TdM7+YwTMUfk3CmCr1m5SuXNHIoKMXeaSsjVpDAyjFV7OVQeaQprS15+qXWA=; Domain=jumia.co.ke; Expires=Mon, 26 Feb 2024 13:34:04 GMT; Path=/;newsletter=1; Domain=jumia.co.ke; Expires=Mon, 26 Feb 2029 13:04:04 GMT; Path=/;regeneratedSponsoredUserId=1; Domain=jumia.co.ke; Expires=Fri, 26 Apr 2024 13:04:04 GMT; Path=/;sb-closed=true; Domain=jumia.co.ke; Expires=Mon, 04 Mar 2024 13:04:04 GMT; Path=/;sponsoredUserId=171675362248839974665dc8c43e93d3; Domain=jumia.co.ke; Expires=Wed, 26 Feb 2025 13:04:04 GMT; Path=/;userLanguage=en_KE; Domain=jumia.co.ke; Expires=Wed, 26 Feb 2025 13:04:04 GMT; Path=/;
+Sops_Api_Credits: 1
+Vary: Cookie
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: 72d44ccc-679d-4ebc-9bbf-39a5d0017c99
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
